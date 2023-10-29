@@ -18,11 +18,6 @@ const { currentPage } = Astro.props;
 		<div class="flex gap-2">
 		
 		<!-- <button onclick="toggleDarkMode()">theme</button> -->
-		{ SITE.twitter &&
-			(<a title="Twitter" class="opacity-90 hover:opacity-100 hover:bg-blue-100 p-2 rounded-full transition-colors" href={'https://twitter.com/'+SITE.twitter}>
-				<img class="h-7" src="/twitter.svg" alt="twitter logo">
-			</a>)
-		}
 		{
 			SITE.github &&
 			(<a title="Github" class="opacity-80 hover:opacity-100 hover:bg-slate-200 p-2 rounded-full transition-colors" href={'https://github.com/'+SITE.github}>

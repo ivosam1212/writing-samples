@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Sample 1. Instructions
 description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
